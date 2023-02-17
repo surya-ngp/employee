@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="main">
+    <img alt="Vue logo" src="./assets/ngplogo.png"> 
+    <HelloWorld msg="Welcome to NGP WEBSMART "/> 
+    
   </div>
 </template>
 
@@ -24,5 +25,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.main{
+  background-color: cadetblue;
+  height: 100vh;
+  width: 200vh;
 }
 </style>
